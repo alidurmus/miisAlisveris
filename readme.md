@@ -33,7 +33,11 @@ Payment & Shipping Information
  
 > **Installation:**
 
-> - php artisan migrate 
+> - git clone https://github.com/korayzorluoglu/miisAlisveris.git
+> - touch database/database.sql
+> - composer install
+> - php artisan key:generate
+> - php artisan migrate
 > - php artisan db:seed
 > - php artisan currency:update
 
