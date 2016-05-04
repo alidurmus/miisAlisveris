@@ -31,7 +31,7 @@ Screenvideo
 > **Installation:**
 
 > - git clone https://github.com/korayzorluoglu/miisAlisveris.git
-> - touch database/database.sql
+> - touch database/database.sqlite
 > - composer install
 > - php artisan key:generate
 > - php artisan migrate
