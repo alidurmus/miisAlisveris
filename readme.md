@@ -22,6 +22,9 @@ Cart Preview:
 Currencies Preview:
 ![enter image description here](http://s32.postimg.org/51js4lac5/Screenshot_from_2016_05_03_11_31_53.png)
 
+Login / Logged User
+![enter image description here](http://s32.postimg.org/75p5duxph/screen.jpg)
+
 View Cart:
 ![enter image description here](http://s32.postimg.org/qgbbgb06d/checkout.png)
 

@@ -54,6 +54,7 @@
                         <a href="#">Empty</a>
                     </li>
                 </ul>
+                            @include('auth/navigation')
                             @include('cart/navigation')
                             @include('currencies/navigation')
 

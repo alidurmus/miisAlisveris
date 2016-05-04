@@ -26,7 +26,11 @@ class PasswordController extends Controller
      * @return void
      */
     public function __construct()
-    {
+    {    
         $this->middleware('guest');
+        $categories = \App\Categories::all();
+        $currencies = \App\Currencies::all();
+        view()->share('categories', $categories);
+        view()->share('currencies', $currencies);
     }
 }

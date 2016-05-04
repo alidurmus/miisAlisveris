@@ -37,6 +37,10 @@ class AuthController extends Controller
      */
     public function __construct()
     {
+        $categories = \App\Categories::all();
+        $currencies = \App\Currencies::all();
+        view()->share('categories', $categories);
+        view()->share('currencies', $currencies);
         $this->middleware($this->guestMiddleware(), ['except' => 'logout']);
     }
 
