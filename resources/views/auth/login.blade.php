@@ -1,5 +1,7 @@
 @extends('template.app')
 
+@section('title', 'Login')
+
 @section('content')
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>

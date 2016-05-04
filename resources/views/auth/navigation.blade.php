@@ -11,6 +11,9 @@
                     <a>Welcome {{ Auth::user()->name }}</a>
                 </li>
                 <li>
+                    <a href="{{ url('profile') }}">Profile</a>
+                </li> 
+                <li>
                     <a href="{{ url('logout') }}">Logut</a>
                 </li> 
             </ul>

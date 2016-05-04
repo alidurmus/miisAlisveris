@@ -15,7 +15,6 @@
         <label>Firstname Lastname</label>
         <input type="text" class="form-control" name="payment_name" value="{{ old('payment_name') }}">
           @if ($errors->has('payment_name'))<p style="color:red;">{!!$errors->first('payment_name')!!}</p>@endif
-
     </div>
     <div class="form-group">
         <label>Company</label>
